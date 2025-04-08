@@ -1,0 +1,118 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #4aacb1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+form input {
+  width: 300px;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 16px;
+  outline: none;
+}
+
+.weather-box {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  margin-top: 40px;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.weather-box h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.weather-box h3 span {
+  background-color: #facc15; /* Yellow-300 */
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #000;
+}
+
+.weather-box h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #444;
+  margin: 10px 0;
+}
+
+.weather-box img {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  display: block;
+}
+
+.weather-box p {
+  text-transform: capitalize;
+  color: #666;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-container input {
+  width: 220px;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 16px;
+  outline: none;
+}
+
+.form-container button {
+  height: 45px;
+  padding: 0 20px;
+  background-color: #ffffff;
+  color: #4aacb1;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #e0f7f9;
+}
